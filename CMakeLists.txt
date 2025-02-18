@@ -15,7 +15,7 @@ find_package(PolkitQt5-1 REQUIRED)
 find_package(Threads REQUIRED)
 find_package(Qt5LinguistTools)
 pkg_check_modules(LIBUSB REQUIRED libusb-1.0)
-pkg_check_modules(LIBFPRINT REQUIRED libfprint)
+pkg_check_modules(LIBFPRINT REQUIRED libfprint-2)
 pkg_check_modules(FAKEKEY REQUIRED libfakekey)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
