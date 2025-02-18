@@ -25,7 +25,7 @@
 #define LICENSE "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
 
 extern "C" {
-#include <libfprint/fprint.h>
+#include <libfprint-2/fprint.h>
 }
 
 #define _MULTI_THREADED
